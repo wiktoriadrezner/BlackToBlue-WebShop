@@ -239,7 +239,7 @@ footer {
 }
 
 /* MOBILE/TABLET OPTIMISED */
-@media (max-width: 1200px) {
+@media (max-width: 800px) {
   .landing-page {
     height: 40vh;
   }
@@ -250,7 +250,7 @@ footer {
   }
 
   .button {
-    top: 100vh;
+    top: 105vh;
   }
 
   .shade-01 {
@@ -286,7 +286,7 @@ footer {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   .products-in-shade {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
