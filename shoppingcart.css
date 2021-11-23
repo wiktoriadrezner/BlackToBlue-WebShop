@@ -1,0 +1,111 @@
+/* REUSABLE ELEMENTS */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.gradient {
+  background: hsla(208, 88%, 57%, 1);
+  background: linear-gradient(270deg, #cce5fb 0%, #08569a 50%, #14181c 100%);
+}
+
+.font {
+  font-family: modish, sans-serif;
+  font-style: normal;
+}
+
+/* APPLYING TO ALL */
+* {
+  scroll-behavior: smooth;
+  font-family: "Open Sans";
+  margin: 0;
+  padding: 0;
+}
+
+/* ABOVE GRID */
+
+.menu {
+  grid-column-start: 1;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background: linear-gradient(270deg, #cce5fb 0%, #08569a 50%, #14181c 100%);
+  height: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.menulogo {
+  margin-right: auto;
+  margin-left: 44%;
+  color: white;
+  font-family: modish, sans-serif;
+  font-style: normal;
+  font-size: 2.7vw;
+}
+
+.upper-icon {
+  height: 3vw;
+  margin-right: 0.8%;
+}
+
+.Cart {
+  text-align: center;
+  font-family: "Open Sans";
+  padding: 5vw 0;
+}
+
+/* FLEX-KILL ME */
+
+.Top-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12vw;
+}
+
+.Watch-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10vw;
+}
+
+.Xbox-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10vw;
+}
+
+/* PARTS IN FLEX */
+
+.Items-in-cart {
+  padding-right: 26vw;
+}
+
+.Amount {
+  padding-right: 2vw;
+}
+
+.Watch {
+  width: 20vw;
+}
+
+.Xbox-controller {
+  width: 20vw;
+}
+
+h3 {
+  width: 10vw;
+  font-size: 1em;
+}
+
+.Addsubtract {
+  width: 10vw;
+}
+
+.Cancel {
+  width: 10vw;
+}
