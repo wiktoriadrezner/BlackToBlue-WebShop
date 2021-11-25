@@ -1,0 +1,198 @@
+* {
+    scroll-behavior: smooth;
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    width: 100%;
+    grid-row-gap: 1vw;
+}
+
+.menu{
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: linear-gradient(270deg, #cce5fb 0%, #08569a 50%, #14181c 100%);
+    height: 5vw;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.menulogo{
+    color: white;
+    font-family: modish, sans-serif;
+    font-style: normal;
+    font-size: 2.7vw;
+    display: flex;
+    align-content: center;
+}
+
+.menu-icons{
+    display: flex;
+    column-gap: 1vw;
+    width: 8vw;
+    align-items: center;
+}
+
+.return-button{
+    width: 8vw;
+    display: flex;
+    align-items: center;
+}
+.upper-icon {
+    height: 3vw;
+    margin-right: 0.8%;
+    margin-top: 0.8%;
+    margin-bottom: 0.8%;
+}
+
+.checkout-title{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    justify-self: center;
+    margin-top: 3vw;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.card-details-title{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    justify-self: center;
+    margin-top: 3vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.billing-adress{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 6;
+    grid-column-end: 9;
+    font-size: 1.5vw;
+}
+
+.billing-subheader{
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 6;
+    grid-column-end: 9;
+    font-size: .5vw;
+}
+
+.cardname{
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    align-self: center;
+}
+
+.field{
+    width: 25vw;
+}
+.blank{
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.card-number{
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.cardnumber{
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.ccv{
+    grid-row-start: 8;
+    grid-row-end: 9;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.email{
+    grid-row-start: 9;
+    grid-row-end: 10;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.phone-number{
+    grid-row-start: 10;
+    grid-row-end: 11;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+
+
+
+.footer{
+    background-color: #0f3353;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 12;
+    grid-row-end: 13;
+    height: 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 0.7vw;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: center;
+    background-color: #0f3353;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 12;
+    grid-row-end: 13;
+  }
+  
+  .footer-text {
+    color: white;
+  }
+  
+  .footer-links {
+    padding-top: 0.5%;
+    font-size: 1em;
+  }
+  
+  .footer-connect {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-icon {
+    height: 2.5em;
+    padding: 0.5em 0.8em 0.5em;
+  }
+
+  
