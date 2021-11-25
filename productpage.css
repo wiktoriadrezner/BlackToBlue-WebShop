@@ -57,6 +57,8 @@ main{
     grid-row-end: 8;
     grid-column-start: 2;
     grid-column-end: 5;
+    align-self: center;
+    justify-self: center;
 }
 
 .productname{
@@ -66,7 +68,6 @@ main{
     grid-row-end: 4;
     font-size: 2vw;
     font-weight: bold;
-    margin-top: 2vw;
 }
 
 .productprice{
@@ -109,6 +110,8 @@ main{
     grid-row-start: 7;
     grid-row-end: 8;
     font-size: 1vw;
+    line-height: 1.5vw;
+    margin-top: 0.5vw;
 }
 
 .similarproducts{
@@ -118,6 +121,7 @@ main{
     grid-row-end: 9;
     font-size: 1.5vw;
     margin-top: 4vw;
+    justify-self: center;
 }
 
 .similarimages{
@@ -127,6 +131,7 @@ main{
     grid-row-end: 12;
     display: flex;
     justify-content: center;
+    column-gap: 2vw;
 }
 
 .relatedproduct{
@@ -257,8 +262,9 @@ footer {
         grid-column-start: 1;
         grid-row-start: 4;
         grid-row-end: 5;
-        font-size: 2vw;
-        justify-self: center;
+        font-size: 6vw;
+        margin-left: 5vw;
+        margin-top: 4vw;
     }
 
     .addbutton{
@@ -268,13 +274,12 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 20vw;
-        height: 4vw;
+        width: 90vw;
+        height: 12vw;
         background-color: #08569A;
         color: white;
-        margin-top: 1vw;
-        margin-bottom: 1vw;
-        font-size: 1.5vw;
+        margin-top: 4vw;
+        font-size: 4vw;
         justify-self: center;
     }
 
@@ -282,17 +287,21 @@ footer {
         grid-column-start: 1;
         grid-row-start: 6;
         grid-row-end: 7;
-        font-size: 1.5vw;
+        font-size: 5vw;
         font-weight: bold;
-        justify-self: center;
+        margin-left: 5vw;
+        margin-top: 4vw;
     }
 
     .productdetails{
         grid-column-start: 1;
         grid-row-start: 7;
         grid-row-end: 8;
-        font-size: 1vw;
+        line-height: 6.5vw;
+        font-size: 3.8vw;
+        margin-left: 4vw;
         justify-self: center;
+        margin-top: 4vw;
     }
     
     .relatedproduct, .similarimages, .similarproducts {
@@ -300,7 +309,7 @@ footer {
     }
 
     footer {
-        margin-top: 0.7vw;
+        margin-top: 2vw;
         padding-top: 0.5em;
         padding-bottom: 0.5em;
         text-align: center;
