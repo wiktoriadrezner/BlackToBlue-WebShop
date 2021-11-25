@@ -1,0 +1,345 @@
+* {
+    scroll-behavior: smooth;
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    width: 100%;
+}
+
+.menu{
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: linear-gradient(270deg, #cce5fb 0%, #08569a 50%, #14181c 100%);
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menulogo{
+    color: white;
+    font-family: modish, sans-serif;
+    font-style: normal;
+    font-size: 2.7vw;
+}
+
+.menu-icons{
+    display: flex;
+    column-gap: 1vw;
+    width: 8vw;
+}
+
+.return-button{
+    width: 8vw;
+    display: flex;
+}
+.upper-icon {
+    height: 3vw;
+    margin-right: 0.8%;
+    margin-top: 0.8%;
+    margin-bottom: 0.8%;
+}
+
+.watch{
+    width: 40vw;
+}
+
+.productimage{
+    grid-row-start: 2;
+    grid-row-end: 8;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    align-self: center;
+    justify-self: center;
+}
+
+.productname{
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.productprice{
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    font-size: 2vw;
+}
+
+.addbutton{
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 4vw;
+    background-color: #08569A;
+    color: white;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-size: 1.5vw;
+}
+
+.detailstitle{
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.productdetails{
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    font-size: 1vw;
+    line-height: 1.5vw;
+    margin-top: 0.5vw;
+}
+
+.similarproducts{
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    font-size: 1.5vw;
+    margin-top: 4vw;
+    justify-self: center;
+}
+
+.similarimages{
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 9;
+    grid-row-end: 12;
+    display: flex;
+    justify-content: center;
+    column-gap: 2vw;
+}
+
+.relatedproduct{
+    width: 14vw;
+}
+
+.footer{
+    background-color: #0f3353;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 12;
+    grid-row-end: 13;
+    height: 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 0.7vw;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: center;
+    background-color: #0f3353;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 12;
+    grid-row-end: 13;
+  }
+  
+  .footer-text {
+    color: white;
+  }
+  
+  .footer-links {
+    padding-top: 0.5%;
+    font-size: 1em;
+  }
+  
+  .footer-connect {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-icon {
+    height: 2.5em;
+    padding: 0.5em 0.8em 0.5em;
+  }
+
+  /* For Mobile */
+
+  @media(max-width: 425px){
+
+    
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        height: 100%;
+    }
+
+    .menu{
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background: linear-gradient(270deg, #cce5fb 0%, #08569a 50%, #14181c 100%);
+        height: 18vw;
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+    }
+    
+    .menulogo{
+        color: white;
+        font-family: modish, sans-serif;
+        font-style: normal;
+        font-size: 8vw;
+    }
+    
+    .menu-icons{
+        display: flex;
+        column-gap: 1vw;
+        width: 20vw;
+    }
+    
+    .return-button{
+        width: 20vw;
+        display: flex;
+    }
+
+    .upper-icon {
+        height: 8vw;
+        margin-right: 0.8%;
+        margin-top: 0.8%;
+        margin-bottom: 0.8%;
+    }
+
+    .watch{
+        width: 100vw;
+    }
+
+    .productimage{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        justify-self: center;
+    }
+
+    .productname{
+        grid-column-start: 1;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        font-size: 6vw;
+        font-weight: bold;
+        margin-top: 2vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .productprice{
+        grid-column-start: 1;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        font-size: 6vw;
+        margin-left: 5vw;
+        margin-top: 4vw;
+    }
+
+    .addbutton{
+        grid-column-start: 1;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        height: 12vw;
+        background-color: #08569A;
+        color: white;
+        margin-top: 4vw;
+        font-size: 4vw;
+        justify-self: center;
+    }
+
+    .detailstitle{
+        grid-column-start: 1;
+        grid-row-start: 6;
+        grid-row-end: 7;
+        font-size: 5vw;
+        font-weight: bold;
+        margin-left: 5vw;
+        margin-top: 4vw;
+    }
+
+    .productdetails{
+        grid-column-start: 1;
+        grid-row-start: 7;
+        grid-row-end: 8;
+        line-height: 6.5vw;
+        font-size: 3.8vw;
+        margin-left: 4vw;
+        justify-self: center;
+        margin-top: 4vw;
+    }
+    
+    .relatedproduct, .similarimages, .similarproducts {
+        display: none;
+    }
+
+    footer {
+        margin-top: 2vw;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        text-align: center;
+        background-color: #0f3353;
+        grid-column-start: 1;
+        grid-row-start: 8;
+        grid-row-end: 9;
+      }
+      
+      .footer-text {
+        color: white;
+      }
+      
+      .footer-links {
+        padding-top: 0.5%;
+        font-size: 1em;
+      }
+      
+      .footer-connect {
+        font-size: 1.2em;
+        font-weight: bold;
+      }
+      
+      .footer-icons {
+        display: flex;
+        justify-content: center;
+      }
+      
+      .footer-icon {
+        height: 2.5em;
+        padding: 0.5em 0.8em 0.5em;
+      }
+  }
