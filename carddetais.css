@@ -10,6 +10,7 @@ main{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     width: 100%;
+    grid-row-gap: 1vw;
 }
 
 .menu{
@@ -98,10 +99,19 @@ main{
     align-self: center;
 }
 
-.type-field{
+.field{
     width: 25vw;
+}
+.blank{
     grid-row-start: 6;
     grid-row-end: 7;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.card-number{
+    grid-row-start: 7;
+    grid-row-end: 8;
     grid-column-start: 4;
     grid-column-end: 5;
 }
