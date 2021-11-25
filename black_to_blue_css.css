@@ -1,21 +1,12 @@
 /* REUSABLE ELEMENTS */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-
-.gradient {
-  background: hsla(208, 88%, 57%, 1);
-  background: linear-gradient(270deg, #cce5fb 0%, #08569a 50%, #14181c 100%);
-}
-
 .font {
   font-family: modish, sans-serif;
   font-style: normal;
 }
 
-.upper-icon {
-  margin-top: 0.8%;
-  margin-bottom: 0.8%;
-  margin-right: 0.8%;
-  height: 3rem;
+.gradient {
+  background: linear-gradient(270deg, #cce5fb 0%, #08569a 50%, #14181c 100%);
 }
 
 /* SCROLL UP BUTTON */
@@ -27,7 +18,7 @@
 }
 
 .scroll-up {
-  position: -webkit-sticky; /* for Safari */
+  position: -webkit-sticky;
   position: sticky;
   top: 95vh;
 }
@@ -62,6 +53,11 @@ ul {
 
 li {
   display: inline;
+}
+
+.upper-icon {
+  margin: 0.8% 0.8% 0.8% 0;
+  height: 3rem;
 }
 
 /* LANDING PAGE */
@@ -208,8 +204,7 @@ main {
 /* FOOTER */
 footer {
   margin-top: 0.7vw;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding: 0.5em 0 0.5em 0;
   text-align: center;
   background-color: #0f3353;
 }
@@ -238,8 +233,8 @@ footer {
   padding: 0.5em 0.8em 0.5em;
 }
 
-/* MOBILE/TABLET OPTIMISED */
-@media (max-width: 800px) {
+/* TABLET OPTIMISED */
+@media (max-width: 768px) {
   .landing-page {
     height: 40vh;
   }
@@ -247,10 +242,6 @@ footer {
   #shades-of-blue {
     grid-template-columns: repeat(4, 1fr);
     grid-row-gap: 0.7vw;
-  }
-
-  .button {
-    top: 105vh;
   }
 
   .shade-01 {
@@ -284,15 +275,52 @@ footer {
   .shade-08 {
     background: #99cbf8;
   }
+
+  .footer-connect {
+    font-size: 1.2rem;
+  }
+
+  .footer-icon {
+    height: 2.2rem;
+  }
+
+  .footer-links {
+    font-size: 1rem;
+  }
+
+  .button {
+    top: 140vh;
+  }
+
+  .scroll-up-button {
+    width: 4rem;
+  }
 }
 
-@media (max-width: 500px) {
+/* MOBILE OPTIMISED */
+@media (max-width: 425px) {
   .products-in-shade {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .footer-connect {
+    font-size: 1rem;
+  }
+
+  .footer-icon {
+    height: 2rem;
+  }
+
+  .footer-links {
+    font-size: 0.9rem;
+  }
+
   .button {
     top: 100vh;
+  }
+
+  .scroll-up-button {
+    width: 3.5rem;
   }
 }
