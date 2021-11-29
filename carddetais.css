@@ -11,6 +11,8 @@ main{
     grid-template-rows: auto;
     width: 100%;
     grid-row-gap: 1vw;
+    grid-column-gap: 2vw;
+    height: 100vh;
 }
 
 .menu{
@@ -59,7 +61,7 @@ main{
     grid-column-start: 1;
     grid-column-end: 9;
     justify-self: center;
-    margin-top: 3vw;
+    margin-top: 1vw;
     font-size: 2vw;
     font-weight: bold;
 }
@@ -70,7 +72,7 @@ main{
     grid-column-start: 1;
     grid-column-end: 9;
     justify-self: center;
-    margin-top: 3vw;
+    margin-top: 1vw;
     font-size: 1.5vw;
     font-weight: bold;
 }
@@ -78,30 +80,48 @@ main{
 .billing-adress{
     grid-row-start: 4;
     grid-row-end: 5;
-    grid-column-start: 6;
-    grid-column-end: 9;
+    grid-column-start: 5;
+    grid-column-end: 6;
     font-size: 1.5vw;
+    justify-self: center;
 }
 
 .billing-subheader{
     grid-row-start: 5;
     grid-row-end: 6;
-    grid-column-start: 6;
-    grid-column-end: 9;
-    font-size: .5vw;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    font-size: 1vw;
+    justify-self: center;
 }
 
 .cardname{
     grid-row-start: 6;
     grid-row-end: 7;
-    grid-column-start: 3;
+    grid-column-start: 2;
     grid-column-end: 4;
     align-self: center;
+    margin-left: 6vw;
+    font-size: 1vw;
 }
 
 .field{
     width: 25vw;
 }
+
+.small-field{
+    width: 5vw;
+}
+
+.country{
+    width: 15.9vW;
+}
+
+.postcode{
+    width: 9vw;
+    justify-self: end;
+}
+
 .blank{
     grid-row-start: 6;
     grid-row-end: 7;
@@ -119,33 +139,104 @@ main{
 .cardnumber{
     grid-row-start: 7;
     grid-row-end: 8;
-    grid-column-start: 3;
+    grid-column-start: 2;
     grid-column-end: 4;
+    align-self: center;
+    margin-left: 6vw;
+    font-size: 1vw;
 }
 
+.ccv-code{
+    grid-row-start: 8;
+    grid-row-end: 9;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
 .ccv{
     grid-row-start: 8;
     grid-row-end: 9;
-    grid-column-start: 3;
+    grid-column-start: 2;
     grid-column-end: 4;
+    align-self: center;
+    margin-left: 6vw;
+    font-size: 1vw;
 }
 
 .email{
     grid-row-start: 9;
     grid-row-end: 10;
-    grid-column-start: 3;
+    grid-column-start: 2;
     grid-column-end: 4;
+    align-self: center;
+    margin-left: 6vw;
+    font-size: 1vw;
+}
+
+.email-field{
+    grid-row-start: 9;
+    grid-row-end: 10;
+    grid-column-start: 4;
+    grid-column-end: 5;
 }
 
 .phone-number{
     grid-row-start: 10;
     grid-row-end: 11;
-    grid-column-start: 3;
+    grid-column-start: 2;
     grid-column-end: 4;
+    align-self: center;
+    margin-left: 6vw;
+    font-size: 1vw;
 }
 
+.number-field{
+    grid-row-start: 10;
+    grid-row-end: 11;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
 
+.house-adress{
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
 
+.street-adress{
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.town-adress{
+    grid-row-start: 8;
+    grid-row-end: 9;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.state-adress{
+    grid-row-start: 9;
+    grid-row-end: 10;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.country-adress{
+    grid-row-start: 10;
+    grid-row-end: 11;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.post-code-adress{
+    grid-row-start: 10;
+    grid-row-end: 11;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
 
 .footer{
     background-color: #0f3353;
@@ -160,15 +251,11 @@ main{
 }
 
 footer {
-    margin-top: 0.7vw;
+    margin-top: 5vw;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     text-align: center;
     background-color: #0f3353;
-    grid-column-start: 1;
-    grid-column-end: 9;
-    grid-row-start: 12;
-    grid-row-end: 13;
   }
   
   .footer-text {
