@@ -54,7 +54,7 @@
 }
 
 .upper-icon {
-  height: 2.3rem;
+  height: 6.5vh;
   float: right;
 }
 
@@ -90,7 +90,7 @@ footer {
 }
 
 .footer-icon {
-  height: 2.5rem;
+  height: 6vh;
   padding: 0.5em 0.8em 0.5em;
 }
 
@@ -104,26 +104,14 @@ footer {
     font-size: 1.2rem;
   }
 
-  .footer-icon {
-    height: 2.2rem;
-  }
-
   .footer-links {
     font-size: 1rem;
-  }
-
-  .upper-icon {
-    height: 2rem;
   }
 }
 
 @media (max-width: 425px) {
   .footer-connect {
     font-size: 1rem;
-  }
-
-  .footer-icon {
-    height: 2rem;
   }
 
   .footer-links {
@@ -133,9 +121,5 @@ footer {
   .navigation-right {
     column-gap: 1.7vw;
     padding-right: 1.7vw;
-  }
-
-  .upper-icon {
-    height: 2rem;
   }
 }
