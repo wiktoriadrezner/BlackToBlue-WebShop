@@ -17,7 +17,7 @@ main {
 }
 
 .page-header {
-  font-size: 1.8em;
+  font-size: 5vh;
   font-weight: bold;
   text-align: center;
   margin-top: 3vh;
@@ -27,7 +27,7 @@ main {
 .title {
   text-align: center;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 3.7vh;
   margin-bottom: 3.5vh;
   margin-top: 3.5vh;
 }
@@ -77,20 +77,15 @@ main {
   font-weight: bold;
   text-align: center;
   padding: 0.8% 1.2%;
-  width: 13em;
+  width: 25vw;
   margin-top: 4vh;
   margin-bottom: 2vh;
-  font-size: 1.2em;
+  font-size: 3.2vh;
 }
 
 /* TABLET OPTIMISED */
 @media (max-width: 768px) {
-  .page-header {
-    font-size: 2em;
-  }
-
   .title {
-    font-size: 1.4em;
     margin-bottom: 2vh;
     margin-top: 2.5vh;
   }
@@ -103,16 +98,15 @@ main {
     padding-left: 20vw;
     font-size: 2.2vw;
   }
+
+  .blue-button {
+    width: 35vw;
+  }
 }
 
 /* MOBILE OPTIMISED */
 @media (max-width: 425px) {
-  .page-header {
-    font-size: 1.5em;
-  }
-
   .title {
-    font-size: 1.3em;
     margin-bottom: 2.5vh;
     margin-top: 2.5vh;
   }
@@ -127,6 +121,7 @@ main {
   }
 
   .blue-button {
-    font-size: 1em;
+    font-size: 3vh;
+    width: 50vw;
   }
 }
