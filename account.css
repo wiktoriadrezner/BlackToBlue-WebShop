@@ -125,4 +125,8 @@ main {
     padding-left: 12vw;
     font-size: 3vw;
   }
+
+  .blue-button {
+    font-size: 1em;
+  }
 }
