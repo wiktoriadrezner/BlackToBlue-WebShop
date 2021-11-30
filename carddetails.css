@@ -6,6 +6,11 @@
 }
 
 main{
+    width: 100%;
+    position: relative;
+}
+
+.grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
