@@ -6,11 +6,6 @@
   background: linear-gradient(270deg, #cce5fb 0%, #08569a 50%, #14181c 100%);
 }
 
-.font {
-  font-family: modish, sans-serif;
-  font-style: normal;
-}
-
 /* APPLYING TO ALL */
 * {
   scroll-behavior: smooth;
@@ -40,11 +35,6 @@
   font-family: modish, sans-serif;
   font-style: normal;
   font-size: 2.7vw;
-}
-
-.upper-icon {
-  height: 3vw;
-  margin-right: 0.8%;
 }
 
 .Cart {
@@ -204,28 +194,27 @@
   }
 }
 
+/* BELOW GRID */
 
-  /* BELOW GRID */
+.blue-button {
+  background-color: #08569a;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 1% 2%;
+  width: 13em;
+  margin-top: 4vh;
+  margin-bottom: 3vh;
+}
+.button-space {
+  display: flex;
+  justify-content: center;
+}
 
-  .blue-button {
-    background-color: #08569a;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    padding: 1% 2%;
-    width: 13em;
-    margin-top: 4vh;
-  }
-  .button-space {
-    display: flex;
-    justify-content: center;
-  }
-
-  .Total-price {
-    text-align: center;
-    padding-top: 1vw;
-    font-weight: bold;
-  }
+.Total-price {
+  text-align: center;
+  padding-top: 1vw;
+  font-weight: bold;
 }
 
 /* 

@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  --blue-shade-01: #14181c;
+  --blue-shade-02: #102c45;
+  --blue-shade-03: #0c4070;
+  --blue-shade-04: #08569a;
+  --blue-shade-05: #0274d9;
+  --blue-shade-06: #4da5f3;
+  --blue-shade-07: #99cbf8;
+  --blue-shade-08: #cce5fb;
+  --gradient: linear-gradient(270deg, #cce5fb 0%, #08569a 50%, #14181c 100%);
+}
+
+.font {
+  font-family: modish, sans-serif;
+  font-style: normal;
+}
+
+/* NAVIGATION BAR */
+.navigation {
+  background: var(--gradient);
+  display: flex;
+  align-content: center;
+  position: relative;
+  width: 100%;
+  height: 10vh;
+}
+
+.navigation-left {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  float: left;
+  padding-left: 0.7vw;
+}
+
+.navigation-center {
+  width: 70%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: white;
+  font-size: 5vh;
+}
+
+.navigation-right {
+  justify-content: end;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  column-gap: 0.7vw;
+  padding-right: 0.7vw;
+}
+
+.upper-icon {
+  height: 2.3rem;
+  float: right;
+}
+
+.upper-icon:hover {
+  transform: scale(1.1);
+}
+
+/* FOOTER */
+footer {
+  margin-top: 0.7vw;
+  padding: 0.5em 0 0.5em 0;
+  text-align: center;
+  background-color: #0f3353;
+}
+
+.footer-text {
+  color: white;
+}
+
+.footer-links {
+  padding: 0.5% 1% 0 1%;
+  font-size: 1rem;
+}
+
+.footer-connect {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icon {
+  height: 2.5rem;
+  padding: 0.5em 0.8em 0.5em;
+}
+
+.footer-icon:hover {
+  transform: scale(1.1);
+}
+
+/* TABLET AND MOBILE OPTIMISED */
+@media (max-width: 768px) {
+  .footer-connect {
+    font-size: 1.2rem;
+  }
+
+  .footer-icon {
+    height: 2.2rem;
+  }
+
+  .footer-links {
+    font-size: 1rem;
+  }
+
+  .upper-icon {
+    height: 2rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .footer-connect {
+    font-size: 1rem;
+  }
+
+  .footer-icon {
+    height: 2rem;
+  }
+
+  .footer-links {
+    font-size: 0.9rem;
+  }
+
+  .navigation-right {
+    column-gap: 1.7vw;
+    padding-right: 1.7vw;
+  }
+
+  .upper-icon {
+    height: 2rem;
+  }
+}
