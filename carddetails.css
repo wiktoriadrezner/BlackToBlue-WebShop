@@ -15,34 +15,6 @@ main{
     height: 100vh;
 }
 
-.menu{
-    grid-column-start: 1;
-    grid-column-end: 9;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    background: linear-gradient(270deg, #cce5fb 0%, #08569a 50%, #14181c 100%);
-    height: 5vw;
-    display: flex;
-    align-content: center;
-    justify-content: space-between;
-}
-
-.menulogo{
-    color: white;
-    font-family: modish, sans-serif;
-    font-style: normal;
-    font-size: 2.7vw;
-    display: flex;
-    align-content: center;
-}
-
-.menu-icons{
-    display: flex;
-    column-gap: 1vw;
-    width: 8vw;
-    align-items: center;
-}
-
 .return-button{
     width: 8vw;
     display: flex;
@@ -107,14 +79,17 @@ main{
 
 .field{
     width: 25vw;
+    align-self: center;
 }
 
 .small-field{
     width: 5vw;
+    align-self: center;
 }
 
 .country{
     width: 15.9vW;
+    align-self: center;
 }
 
 .postcode{
@@ -122,7 +97,7 @@ main{
     justify-self: end;
 }
 
-.blank{
+.name{
     grid-row-start: 6;
     grid-row-end: 7;
     grid-column-start: 4;
@@ -236,50 +211,4 @@ main{
     grid-row-end: 11;
     grid-column-start: 5;
     grid-column-end: 6;
-}
-
-.footer{
-    background-color: #0f3353;
-    grid-column-start: 1;
-    grid-column-end: 9;
-    grid-row-start: 12;
-    grid-row-end: 13;
-    height: 10vw;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-footer {
-    margin-top: 5vw;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    text-align: center;
-    background-color: #0f3353;
-  }
-  
-  .footer-text {
-    color: white;
-  }
-  
-  .footer-links {
-    padding-top: 0.5%;
-    font-size: 1em;
-  }
-  
-  .footer-connect {
-    font-size: 1.2em;
-    font-weight: bold;
-  }
-  
-  .footer-icons {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .footer-icon {
-    height: 2.5em;
-    padding: 0.5em 0.8em 0.5em;
-  }
-
-  
+} 
