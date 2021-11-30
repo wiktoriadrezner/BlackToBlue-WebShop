@@ -65,7 +65,7 @@
 /* FOOTER */
 footer {
   margin-top: 0.7vw;
-  padding: 0.5em 0 0.5em 0;
+  padding: 1.3vh 0 1.3vh 0;
   text-align: center;
   background-color: #0f3353;
 }
@@ -76,11 +76,11 @@ footer {
 
 .footer-links {
   padding: 0.5% 1% 0 1%;
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 .footer-connect {
-  font-size: 1.2rem;
+  font-size: 1.2em;
   font-weight: bold;
 }
 
@@ -91,7 +91,7 @@ footer {
 
 .footer-icon {
   height: 6vh;
-  padding: 0.5em 0.8em 0.5em;
+  padding: 0.8vh 0.8vw 0.8vh;
 }
 
 .footer-icon:hover {
@@ -101,21 +101,29 @@ footer {
 /* TABLET AND MOBILE OPTIMISED */
 @media (max-width: 768px) {
   .footer-connect {
-    font-size: 1.2rem;
+    font-size: 1.2em;
   }
 
   .footer-links {
-    font-size: 1rem;
+    font-size: 0.9em;
+  }
+
+  .upper-icon {
+    height: 6vh;
+  }
+
+  .footer-icon {
+    padding: 0.8vh 1.3vw 0.8vh;
   }
 }
 
 @media (max-width: 425px) {
   .footer-connect {
-    font-size: 1rem;
+    font-size: 1em;
   }
 
-  .footer-links {
-    font-size: 0.9rem;
+  .footer-icon {
+    padding: 1.3vh 3vw 1.3vh;
   }
 
   .navigation-right {

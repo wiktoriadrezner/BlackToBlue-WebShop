@@ -38,8 +38,10 @@
 }
 
 .Cart {
+  font-size: 1.8em;
+  font-weight: bold;
   text-align: center;
-  padding-top: 3vw;
+  margin-top: 3vh;
 }
 
 @media only screen and (min-device-width: 800px) and (max-device-width: 4000px) {
