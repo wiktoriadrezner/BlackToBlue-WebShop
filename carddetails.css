@@ -19,8 +19,6 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
   width: 100%;
-  grid-row-gap: 1vw;
-  grid-column-gap: 2vw;
   height: 100vh;
 }
 
