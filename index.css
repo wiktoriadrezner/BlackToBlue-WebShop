@@ -12,9 +12,9 @@ body {
 /* SCROLL UP BUTTON */
 .button {
   position: absolute;
-  top: 45rem;
-  bottom: 0.5rem;
-  right: 0.5rem;
+  top: 120vh;
+  bottom: 0.5vw;
+  right: 1vw;
 }
 
 .scroll-up {
@@ -24,7 +24,7 @@ body {
 }
 
 .scroll-up-button {
-  width: 4.5rem;
+  width: 5.5vw;
 }
 
 /* LANDING PAGE */
@@ -245,7 +245,7 @@ main {
   }
 
   .scroll-up-button {
-    width: 4rem;
+    width: 8vw;
   }
 }
 
@@ -260,6 +260,6 @@ main {
   }
 
   .scroll-up-button {
-    width: 3.5rem;
+    width: 15vw;
   }
 }
