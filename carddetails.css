@@ -14,70 +14,65 @@ body {
   width: 100%;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
+.container{
+  display: flex;
+  justify-content: center;
 }
 
-.row, .one {
-  display:flex;
-  justify-content: center;
-  column-gap: 3vw;
-  grid-row-start: 6;
-  grid-row-end: 7;
-  grid-column-start: 1;
-  grid-column-end: 9;
+.grid {
+  display: grid;
+  width: 68vw;
+  grid-template-columns: 1fr 37% 37%;
+  grid-template-rows: auto;
+  row-gap: 1vw;
+  column-gap: 2vw;
+}
+
+.info{
+  justify-self: start;
+  align-self: center;
+  font-size: 1.3vw;
 }
 
 .checkout-title {
-  grid-row-start: 2;
-  grid-row-end: 3;
-  grid-column-start: 1;
-  grid-column-end: 9;
-  justify-self: center;
+  display: flex;
+  justify-content: center;
   margin-top: 1vw;
   font-size: 2vw;
   font-weight: bold;
 }
 
 .card-details-title {
-  grid-row-start: 3;
-  grid-row-end: 4;
-  grid-column-start: 1;
-  grid-column-end: 9;
-  justify-self: center;
+  display: flex;
+  justify-content: center;
   margin-top: 1vw;
   font-size: 1.5vw;
   font-weight: bold;
 }
 
 .billing-adress {
-  grid-row-start: 4;
-  grid-row-end: 5;
-  grid-column-start: 5;
-  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 3;
+  grid-column-end: 4;
   font-size: 1.5vw;
   justify-self: center;
 }
 
 .billing-subheader {
-  grid-row-start: 5;
-  grid-row-end: 6;
-  grid-column-start: 5;
-  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 4;
   font-size: 1vw;
   justify-self: center;
 }
 
 .cardname {
-  grid-row-start: 6;
-  grid-row-end: 7;
-  grid-column-start: 2;
-  grid-column-end: 4;
-  align-self: center;
-  margin-left: 6vw;
-  font-size: 1vw;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 .field {
@@ -101,117 +96,98 @@ body {
 }
 
 .name {
-  grid-row-start: 6;
-  grid-row-end: 7;
-  grid-column-start: 4;
-  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 
 .card-number {
-  grid-row-start: 7;
-  grid-row-end: 8;
-  grid-column-start: 4;
-  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 
 .cardnumber {
-  grid-row-start: 7;
-  grid-row-end: 8;
-  grid-column-start: 2;
-  grid-column-end: 4;
-  align-self: center;
-  margin-left: 6vw;
-  font-size: 1vw;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 .ccv-code {
-  grid-row-start: 8;
-  grid-row-end: 9;
-  grid-column-start: 4;
-  grid-column-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 .ccv {
-  grid-row-start: 8;
-  grid-row-end: 9;
-  grid-column-start: 2;
-  grid-column-end: 4;
-  align-self: center;
-  margin-left: 6vw;
-  font-size: 1vw;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 .email {
-  grid-row-start: 9;
-  grid-row-end: 10;
-  grid-column-start: 2;
-  grid-column-end: 4;
-  align-self: center;
-  margin-left: 6vw;
-  font-size: 1vw;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  grid-column-start: 1;
 }
 
 .email-field {
-  grid-row-start: 9;
-  grid-row-end: 10;
-  grid-column-start: 4;
-  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 
 .phone-number {
-  grid-row-start: 10;
-  grid-row-end: 11;
-  grid-column-start: 2;
-  grid-column-end: 4;
-  align-self: center;
-  margin-left: 6vw;
-  font-size: 1vw;
+  grid-row-start: 7;
+  grid-row-end: 8;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 .number-field {
-  grid-row-start: 10;
-  grid-row-end: 11;
-  grid-column-start: 4;
-  grid-column-end: 5;
+  grid-row-start: 7;
+  grid-row-end: 8;
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 
 .house-adress {
-  grid-row-start: 6;
-  grid-row-end: 7;
-  grid-column-start: 5;
-  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 3;
+  grid-column-end: 4;
 }
 
 .street-adress {
-  grid-row-start: 7;
-  grid-row-end: 8;
-  grid-column-start: 5;
-  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 3;
+  grid-column-end: 4;
 }
 
 .town-adress {
-  grid-row-start: 8;
-  grid-row-end: 9;
-  grid-column-start: 5;
-  grid-column-end: 6;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 3;
+  grid-column-end: 4;
 }
 
 .state-adress {
-  grid-row-start: 9;
-  grid-row-end: 10;
-  grid-column-start: 5;
-  grid-column-end: 6;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  grid-column-start: 3;
+  grid-column-end: 4;
 }
 
-.country-adress {
-  grid-row-start: 10;
-  grid-row-end: 11;
-  grid-column-start: 5;
-  grid-column-end: 6;
-}
-
-.post-code-adress {
-  grid-row-start: 10;
-  grid-row-end: 11;
-  grid-column-start: 5;
-  grid-column-end: 6;
+.rowcontainer{
+  grid-row-start: 7;
+  grid-row-end: 8;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  display: flex;
 }
