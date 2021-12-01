@@ -10,10 +10,6 @@ main {
   position: relative;
 }
 
-body {
-  width: 100%;
-}
-
 .container{
   display: flex;
   justify-content: center;
@@ -229,10 +225,6 @@ body {
   font-size: 3.2vh;
 }
 
-footer{
-  margin-top: 4.5vw;
-}
-
 /* Tablet OPTIMISED */
 @media (max-width: 768px){
   .grid {
@@ -267,10 +259,6 @@ footer{
 
   .checkout-title{
     font-size: 3vh;
-  }
-
-  footer{
-    margin-top: 18.5vh;
   }
 
   .blue-button {
@@ -403,10 +391,6 @@ footer{
   .blue-button {
     font-size: 2vh;
     width: 50vw;
-    margin-top: 2vh;
-  }
-
-  footer{
     margin-top: 2vh;
   }
 
