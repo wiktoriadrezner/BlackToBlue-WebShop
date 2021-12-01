@@ -12,6 +12,12 @@
   --gradient: linear-gradient(270deg, #cce5fb 0%, #08569a 50%, #14181c 100%);
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
 .font {
   font-family: modish, sans-serif;
   font-style: normal;
@@ -64,7 +70,7 @@
 
 /* FOOTER */
 footer {
-  margin-top: 0.7vw;
+  margin-top: auto;
   padding: 1.3vh 0 1.3vh 0;
   text-align: center;
   background-color: #0f3353;
