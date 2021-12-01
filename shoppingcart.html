@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,117 +8,55 @@
     <link rel="stylesheet" type="text/css" href="shoppingcart.css" />
     <link rel="stylesheet" href="https://use.typekit.net/ugk7ood.css" />
     <title>Shopping Cart</title>
-  </head>
-
-  <body>
-    <div class="navigation">
-      <div class="navigation-left">
-          <a href="index.html"><img class="upper-icon" src="Icons/icon-go-back-2.svg"></a> 
-      </div>
-      <div class="navigation-center font"> Black to Blue </div>
-      <div class="navigation-right">
-          <a href="account.html"><img class="upper-icon" src="Icons/icon-account.svg"></a>
-          <a href="shoppingcart.html"><img class="upper-icon" src="Icons/icon-shopping-cart.svg"></a>
-      </div>
-    </div>
-    <div class="Cart">Shopping Cart</div>
-    <div class="Container">
-      <div class="div1"><h2>Items in Cart</h2></div>
-      <div class="div2"></div>
-      <div class="div3"><h2>Amount</h2></div>
-      <div class="div4"><h2>Price</h2></div>
-      <div class="div5"><h2>Total Price</h2></div>
-      <div class="div6"><h2>Remove</h2></div>
-      <div class="div7">
-        <img class="Images" src="Products/shade-05-product-01.png" />
-      </div>
-      <div class="div8">
-        <h4>Everett Three-Hand Date Blue Silicone Watch</h4>
-      </div>
-      <div class="div9">
-        <img class="Scroller-and-friend" src="Icons/icon-addsubtract.svg" />
-      </div>
-      <div class="div10"><h3>£229.99</h3></div>
-      <div class="div11"><h3>£229.99</h3></div>
-      <div class="div12">
-        <img class="Scroller-and-friend" src="Icons/icon-cancel.svg" />
-      </div>
-      <div class="div13">
-        <img class="Images" src="Products/shade-04-product-04.png" />
-      </div>
-      <div class="div14">
-        <h4>Xbox Series X Wireless Controller Shock Blue</h4>
-      </div>
-      <div class="div15">
-        <img class="Scroller-and-friend" src="Icons/icon-addsubtract.svg" />
-      </div>
-      <div class="div16"><h3>£60</h3></div>
-      <div class="div17"><h3>£289.99</h3></div>
-      <div class="div18">
-        <img class="Scroller-and-friend" src="Icons/icon-cancel.svg" />
-      </div>
-    </div>
-
-    <p class="Total-price">Total Price: £289.99</p>
-
-    <div class="button-space">
-      <div class="blue-button">GO TO CHECKOUT</div>
-    </div>
+</head>
+<body>
+    <main>
+        <div class="navigation">
+            <div class="navigation-left">
+                <a href="index.html"><img class="upper-icon" src="Icons/icon-go-back.svg"></a> 
+            </div>
+            <div class="navigation-center font"> Black to Blue </div>
+            <div class="navigation-right">
+                <a href="account.html"><img class="upper-icon" src="Icons/icon-account.svg"></a>
+                <a href="shoppingcart.html"><img class="upper-icon" src="Icons/icon-shopping-cart.svg"></a>
+            </div>
+        </div>
+        <div class="page-header"> Shopping Cart </div>
+        <div class="shopping-cart">
+            <div class="section-title-items"> ITEMS IN CART </div>
+            <div class="section-title-amount"> AMOUNT </div>
+            <div class="section-title-price"> PRICE </div>
+            <div class="section-title-total"> TOTAL PRICE </div>
+            <div class="section-title-remove"> REMOVE </div>
+            <div class="product-in-cart-one">
+                <div class="product-image"><img class="image" src="Products/shade-05-product-01.png"></div>
+                <div class="product-name"> Everett Three-Hand Date Blue Silicone Watch </div>
+            </div>
+            <div class="amount-one"><img class="button-add" src="Icons/icon-addsubtract.svg"></div>
+            <div class="price"> £229.99 </div>
+            <div class="price"> £229.99 </div>
+            <div class="remove"><img class="button-remove" src="Icons/icon-remove.svg"></div>
+            <div class="product-in-cart-two">
+              <div class="product-image"><img class="image" src="Products/shade-04-product-04.png"></div>
+              <div class="product-name"> Xbox Series X Wireless Controller Shock Blue </div>
+          </div>
+          <div class="amount-two"><img class="button-add" src="Icons/icon-addsubtract.svg"></div>
+          <div class="price"> £60 </div>
+          <div class="price"> £289.99 </div>
+          <div class="remove"><img class="button-remove" src="Icons/icon-remove.svg"></div>
+        </div>
+        <p class="total-price"> TOTAL PRICE: £289.99 </p>
+        <div class="button-space"><div class="blue-button"> GO TO CHECKOUT </div></div>
+    </main>
     <footer>
-      <p class="footer-text footer-connect"> CHECK US OUT ON SOCIAL MEDIA </p>
-      <div class="footer-icons">
-          <img class="footer-icon" src="Icons/icon-footer-facebook.svg">
-          <img class="footer-icon" src="Icons/icon-footer-instagram.svg">
-          <img class="footer-icon" src="Icons/icon-footer-twitter.svg">
-          <img class="footer-icon" src="Icons/icon-footer-youtube.svg">
-      </div>
-      <p class="footer-text footer-links"> Terms and Conditions | Return Policy | Track Your Order | Contact | Privacy Policy </p>
-  </footer>
-
-    <!--- <h1 class="Cart">CART</h1>
-    <div class="Top-line">
-      <div class="Items-in-cart"><h2>Items in Cart</h2></div>
-      <div class="Amount"><h2>Amount</h2></div>
-      <div class="Price"><h2>Price</h2></div>
-      <div class="Total-price"><h2>Total Price</h2></div>
-      <div class="Remove"><h2>Remove</h2></div>
-    </div>
-
-    <div class="Watch-line">
-      <div class="Watch-div">
-        <img class="Watch" src="Products/shade-05-product-01.png" alt="watch" />
-      </div>
-      <div class="div7">
-        <h3>Everett Three-Hand Date Blue Silicone Watch</h3>
-      </div>
-      <div class="div8">
-        <img class="Addsubtract" src="Icons/icon-addsubtract.svg" />
-      </div>
-      <div class="div9"><p>£229.99</p></div>
-      <div class="div10"><p>£229.99</p></div>
-      <div class="div11">
-        <img class="Cancel" src="Icons/icon-cancel.svg" />
-      </div>
-    </div>
-    <div class="Xbox-line">
-      <div class="Xbox-controller-div">
-        <img
-          class="Xbox-controller"
-          src="Products/shade-04-product-04.png"
-          alt="xbox-controller"
-        />
-      </div>
-      <div class="div13">
-        <h3>Xbox Series X Wireless Controller Shock Blue</h3>
-      </div>
-      <div class="div14">
-        <img class="Addsubtract" src="Icons/icon-addsubtract.svg" />
-      </div>
-      <div class="div15"><p>£60</p></div>
-      <div class="div16"><p>£289.99</p></div>
-      <div class="div17">
-        <img class="Cancel" src="Icons/icon-cancel.svg" />
-      </div>
-    </div>-->
-  </body>
+        <p class="footer-text footer-connect"> CHECK US OUT ON SOCIAL MEDIA </p>
+        <div class="footer-icons">
+            <img class="footer-icon" src="Icons/icon-footer-facebook.svg">
+            <img class="footer-icon" src="Icons/icon-footer-instagram.svg">
+            <img class="footer-icon" src="Icons/icon-footer-twitter.svg">
+            <img class="footer-icon" src="Icons/icon-footer-youtube.svg">
+        </div>
+        <p class="footer-text footer-links"> Terms and Conditions | Return Policy | Track Your Order | Contact | Privacy Policy </p>
+    </footer>
+</body>
 </html>

@@ -24,46 +24,42 @@ main {
 }
 
 /* SIGN IN AND CREATE ACCOUNT */
+.sign-in-or-create-account {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  margin: 0 5%;
+}
+
 .title {
   text-align: center;
   font-weight: bold;
   font-size: 3.7vh;
-  margin-bottom: 3.5vh;
+  margin-bottom: 1.5vh;
   margin-top: 3.5vh;
 }
 
 .details-and-space {
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 1;
+  grid-template-rows: auto;
   grid-row-gap: 0.7vw;
 }
 
 .details {
-  display: table;
-  text-align: center;
-}
-
-.blank {
-  display: table-cell;
-  vertical-align: middle;
-  width: 25vw;
-}
-
-.sign-in-account {
-  width: 100%;
-}
-
-.create-account {
-  width: 100%;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: auto;
 }
 
 .section {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: left;
-  padding-left: 26vw;
-  font-size: 1.3vw;
+  font-size: 1.2vw;
+  display: flex;
+  align-items: center;
+}
+
+.blank {
+  width: 25vw;
 }
 
 .button-space {
@@ -85,43 +81,32 @@ main {
 
 /* TABLET OPTIMISED */
 @media (max-width: 768px) {
-  .title {
-    margin-bottom: 2vh;
-    margin-top: 2.5vh;
-  }
-
-  .blank {
-    width: 33vw;
-  }
-
   .section {
-    padding-left: 20vw;
-    font-size: 2.2vw;
+    font-size: 1.5vw;
   }
 
   .blue-button {
-    width: 35vw;
+    padding: 1.5% 1.2%;
   }
 }
 
 /* MOBILE OPTIMISED */
 @media (max-width: 425px) {
-  .title {
-    margin-bottom: 2.5vh;
-    margin-top: 2.5vh;
+  .sign-in-or-create-account {
+    grid-template-columns: 100%;
+    margin: 0 10%;
   }
 
   .blank {
-    width: 40vw;
+    width: 45vw;
   }
 
   .section {
-    padding-left: 12vw;
-    font-size: 3vw;
+    font-size: 2.5vw;
   }
 
   .blue-button {
-    font-size: 3vh;
+    padding: 1.5% 1.2%;
     width: 50vw;
   }
 }
