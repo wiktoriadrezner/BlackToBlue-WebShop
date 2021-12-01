@@ -21,92 +21,82 @@ body {
 
 .grid {
   display: grid;
-  width: 68vw;
-  grid-template-columns: 1fr 37% 37%;
+  width: 52vw;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  row-gap: 1vw;
   column-gap: 2vw;
+}
+
+.field {
+  width: 25vw;
+  align-self: center;
+  justify-self: start;
+}
+
+.small-field {
+  width: 5vw;
+  align-self: center;
+  justify-self: start;
+}
+
+.title{
+  margin-top: 3vw;
+  font-size: 3.7vh;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
 }
 
 .info{
   justify-self: start;
   align-self: center;
-  font-size: 1.3vw;
+  font-size: 1vw;
+  margin-top: 1vw;
+  margin-bottom: .1vw;
 }
 
 .checkout-title {
   display: flex;
   justify-content: center;
-  margin-top: 1vw;
-  font-size: 2vw;
+  margin-top: 3vh;
   font-weight: bold;
+  font-size: 5vh;
+  width: 100%;
 }
 
 .card-details-title {
-  display: flex;
-  justify-content: center;
-  margin-top: 1vw;
-  font-size: 1.5vw;
-  font-weight: bold;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 .billing-adress {
   grid-row-start: 1;
   grid-row-end: 2;
-  grid-column-start: 3;
-  grid-column-end: 4;
-  font-size: 1.5vw;
-  justify-self: center;
-}
-
-.billing-subheader {
-  grid-row-start: 2;
-  grid-row-end: 3;
-  grid-column-start: 3;
-  grid-column-end: 4;
-  font-size: 1vw;
-  justify-self: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 
 .cardname {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.name {
   grid-row-start: 3;
   grid-row-end: 4;
   grid-column-start: 1;
   grid-column-end: 2;
 }
 
-.field {
-  width: 25vw;
-  align-self: center;
-}
-
-.small-field {
-  width: 5vw;
-  align-self: center;
-}
-
-.country {
-  width: 15.9vw;
-  align-self: center;
-}
-
-.postcode {
-  width: 9vw;
-  justify-self: end;
-}
-
-.name {
-  grid-row-start: 3;
-  grid-row-end: 4;
-  grid-column-start: 2;
-  grid-column-end: 3;
-}
-
 .card-number {
-  grid-row-start: 4;
-  grid-row-end: 5;
-  grid-column-start: 2;
-  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 .cardnumber {
@@ -117,41 +107,49 @@ body {
 }
 
 .ccv-code {
-  grid-row-start: 5;
-  grid-row-end: 6;
-  grid-column-start: 2;
-  grid-column-end: 3;
+  grid-row-start: 7;
+  grid-row-end: 8;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 .ccv {
-  grid-row-start: 5;
-  grid-row-end: 6;
+  grid-row-start: 6;
+  grid-row-end: 7;
   grid-column-start: 1;
   grid-column-end: 2;
 }
 
 .email {
-  grid-row-start: 6;
-  grid-row-end: 7;
+  grid-row-start: 8;
+  grid-row-end: 9;
   grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 .email-field {
-  grid-row-start: 6;
-  grid-row-end: 7;
-  grid-column-start: 2;
-  grid-column-end: 3;
+  grid-row-start: 9;
+  grid-row-end: 10;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 .phone-number {
-  grid-row-start: 7;
-  grid-row-end: 8;
+  grid-row-start: 10;
+  grid-row-end: 11;
   grid-column-start: 1;
   grid-column-end: 2;
 }
 
 .number-field {
-  grid-row-start: 7;
-  grid-row-end: 8;
+  grid-row-start: 11;
+  grid-row-end: 12;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.house{
+  grid-row-start: 2;
+  grid-row-end: 3;
   grid-column-start: 2;
   grid-column-end: 3;
 }
@@ -159,35 +157,257 @@ body {
 .house-adress {
   grid-row-start: 3;
   grid-row-end: 4;
-  grid-column-start: 3;
-  grid-column-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.street{
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 
 .street-adress {
-  grid-row-start: 4;
-  grid-row-end: 5;
-  grid-column-start: 3;
-  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.town{
+  grid-row-start: 6;
+  grid-row-end: 7;
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 
 .town-adress {
-  grid-row-start: 5;
-  grid-row-end: 6;
-  grid-column-start: 3;
-  grid-column-end: 4;
+  grid-row-start: 7;
+  grid-row-end: 8;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.state{
+  grid-row-start: 8;
+  grid-row-end: 9;
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 
 .state-adress {
-  grid-row-start: 6;
-  grid-row-end: 7;
-  grid-column-start: 3;
-  grid-column-end: 4;
+  grid-row-start: 9;
+  grid-row-end: 10;
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 
-.rowcontainer{
-  grid-row-start: 7;
-  grid-row-end: 8;
-  grid-column-start: 3;
-  grid-column-end: 4;
+.countryinfo{
+  grid-row-start: 10;
+  grid-row-end: 11;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.buttoncontainer{
   display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 1vw;
+}
+
+.blue-button {
+  background-color: #08569a;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.8% 1.2%;
+  width: 25vw;
+  margin-top: 4vh;
+  margin-bottom: 2vh;
+  font-size: 3.2vh;
+}
+
+footer{
+  margin-top: 4.5vw;
+}
+
+/* Tablet OPTIMISED */
+@media (max-width: 768px){
+  .grid {
+    display: grid;
+    width: 78vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+   .field {
+    width: 38vw;
+    justify-self: center;
+  }
+  
+  .small-field {
+    width: 7vw;
+    justify-self: start;
+  }
+
+  .info{
+    font-size: 2vw;
+    margin-top: 1.5vw;
+  }
+
+  .title{
+    margin-top: 3vw;
+    font-size: 2vh;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+  }
+
+  .checkout-title{
+    font-size: 3vh;
+  }
+
+  footer{
+    margin-top: 18.5vh;
+  }
+
+  .blue-button {
+    font-size: 2vh;
+    width: 50vw;
+    margin-top: 6vh;
+  }
+}
+
+/* Phone OPTIMISED */
+@media (max-width: 425px){
+
+  .checkout-title{
+    font-size: 3vh;
+  }
+
+  .title{
+    margin-top: 3vw;
+    font-size: 2vh;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+  }
+
+  .field {
+    width: 60vw;
+    justify-self: center;
+  }
+  
+  .small-field {
+    width: 12vw;
+    justify-self: start;
+  }
+
+  .info{
+    font-size: 3vw;
+    margin-top: 1.5vw;
+  }
+
+  .blue-button {
+    font-size: 2vh;
+    width: 50vw;
+  }
+
+  .grid {
+    display: grid;
+    width: 60vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .card-details-title {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .billing-adress {
+    grid-row-start: 12;
+    grid-row-end: 13;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-top: 5vw;
+  }
+
+  .house{
+    grid-row-start: 13;
+    grid-row-end: 14;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .house-adress {
+    grid-row-start: 14;
+    grid-row-end: 15;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .street{
+    grid-row-start: 15;
+    grid-row-end: 16;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  
+  .street-adress {
+    grid-row-start: 16;
+    grid-row-end: 17;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  
+  .town{
+    grid-row-start: 17;
+    grid-row-end: 18;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  
+  .town-adress {
+    grid-row-start: 18;
+    grid-row-end: 19;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  
+  .state{
+    grid-row-start: 19;
+    grid-row-end: 20;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  
+  .state-adress {
+    grid-row-start: 20;
+    grid-row-end: 21;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  
+  .countryinfo{
+    grid-row-start: 21;
+    grid-row-end: 22;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .blue-button {
+    font-size: 2vh;
+    width: 50vw;
+    margin-top: 2vh;
+  }
+
+  footer{
+    margin-top: 2vh;
+  }
+
 }
