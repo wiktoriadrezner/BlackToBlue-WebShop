@@ -10,7 +10,7 @@ body {
 }
 
 /* SCROLL UP BUTTON */
-.button {
+.scroll-up-button-space {
   position: absolute;
   top: 120vh;
   bottom: 0.5vw;
@@ -241,7 +241,7 @@ main {
     grid-row: 2 / 3;
   }
 
-  .button {
+  .scroll-up-button-space {
     top: 140vh;
   }
 
@@ -256,7 +256,7 @@ main {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .button {
+  .scroll-up-button-space {
     top: 100vh;
   }
 

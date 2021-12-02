@@ -5,8 +5,13 @@
   padding: 0;
 }
 
+main {
+  width: 100%;
+  position: relative;
+  margin-bottom: 0.7vw;
+}
 
-.grid{
+.grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
@@ -179,7 +184,9 @@
     margin-top: 4vw;
   }
 
-  .relatedproduct, .similarimages, .similarproducts {
+  .relatedproduct,
+  .similarimages,
+  .similarproducts {
     display: none;
   }
 }
