@@ -5,20 +5,11 @@
   padding: 0;
 }
 
-main {
-  width: 100%;
-  position: relative;
-}
-
-body {
-  width: 100%;
-}
 
 .grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
-  width: 100%;
 }
 
 .watch {
@@ -113,13 +104,11 @@ body {
 }
 
 /* For Mobile */
-
-@media (max-width: 426px) {
+@media (max-width: 424px) {
   .grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    height: 100%;
   }
 
   .watch {
