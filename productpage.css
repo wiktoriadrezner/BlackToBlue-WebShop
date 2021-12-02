@@ -109,7 +109,7 @@ main {
 }
 
 /* For Mobile */
-@media (max-width: 424px) {
+@media (orientation: portrait) {
   .grid {
     display: grid;
     grid-template-columns: 1fr;

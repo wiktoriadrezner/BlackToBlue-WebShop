@@ -109,7 +109,7 @@ main {
 }
 
 /* TABLET OPTIMISED */
-@media (max-width: 768px) {
+@media (max-width: 768px) and (orientation: landscape) {
   .shopping-cart {
     margin: 3.5vh 3.5vw 0 3.5vw;
   }
@@ -124,7 +124,7 @@ main {
 }
 
 /* MOBILE OPTIMISED */
-@media (max-width: 425px) {
+@media (orientation: portrait) {
   .shopping-cart {
     grid-template-columns: repeat(4, 1fr);
     grid-row-gap: 0;

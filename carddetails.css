@@ -208,7 +208,7 @@ main {
 }
 
 /* TABLET OPTIMISED */
-@media (max-width: 768px) {
+@media (max-width: 768px) and (orientation: landscape) {
   .grid {
     display: grid;
     width: 78vw;
@@ -245,7 +245,7 @@ main {
 }
 
 /* MOBILE OPTIMISED */
-@media (max-width: 425px) {
+@media (orientation: portrait) {
   .checkout-title {
     font-size: 3vh;
   }
