@@ -44,7 +44,7 @@ body {
 .navigation-center {
   width: 70%;
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   color: white;
   font-size: 5vh;
@@ -118,11 +118,11 @@ footer {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  width: 25vw;
-  height: 8vh;
-  margin-top: 4vh;
+  width: 20vw;
+  height: 6vh;
+  margin-top: 2vh;
   margin-bottom: 2vh;
-  font-size: 3.2vh;
+  font-size: 2.2vh;
 }
 
 /* TABLET AND MOBILE OPTIMISED */
@@ -160,6 +160,14 @@ footer {
   .navigation-right {
     column-gap: 1.7vw;
     padding-right: 1.7vw;
+  }
+
+  .navigation-center {
+    font-size: 4vh;
+  }
+
+  .upper-icon {
+    height: 4vh;
   }
 
   .button {
