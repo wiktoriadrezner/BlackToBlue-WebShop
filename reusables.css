@@ -142,6 +142,10 @@ footer {
   .footer-icon {
     padding: 0.8vh 1.3vw 0.8vh;
   }
+
+  .button {
+    width: 38vw;
+  }
 }
 
 @media (max-width: 425px) {
@@ -156,5 +160,9 @@ footer {
   .navigation-right {
     column-gap: 1.7vw;
     padding-right: 1.7vw;
+  }
+
+  .button {
+    width: 60vw;
   }
 }
