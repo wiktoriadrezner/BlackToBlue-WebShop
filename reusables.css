@@ -104,6 +104,27 @@ footer {
   transform: scale(1.1);
 }
 
+/* BLUE BUTTON */
+.button-space {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #08569a;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  width: 25vw;
+  height: 8vh;
+  margin-top: 4vh;
+  margin-bottom: 2vh;
+  font-size: 3.2vh;
+}
+
 /* TABLET AND MOBILE OPTIMISED */
 @media (max-width: 768px) {
   .footer-connect {
