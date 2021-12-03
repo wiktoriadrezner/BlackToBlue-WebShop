@@ -63,6 +63,16 @@ main {
   width: 25vw;
 }
 
+input{
+  width: 25vw;
+  border: 1px solid;
+  border-radius: 20px;
+  height: 2.5vw;
+  border-color: black;
+  padding-left: 1vw;
+}
+
+
 /* TABLET OPTIMISED */
 @media (max-width: 768px) and (orientation: landscape) {
   .section {
