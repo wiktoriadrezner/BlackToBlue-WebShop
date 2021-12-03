@@ -53,7 +53,7 @@ body {
   display: flex;
   align-items: center;
   float: left;
-  padding-left: 0.7vw;
+  padding-left: 1vw;
 }
 
 .navigation-center {
@@ -66,14 +66,12 @@ body {
 }
 
 .navigation-right {
-  display: -webkit-flex;
-  -webkit-justify-content: end;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   width: 25%;
   align-items: center;
-  column-gap: 0.7vw;
-  padding-right: 0.7vw;
+  column-gap: 1vw;
+  padding-right: 1vw;
 }
 
 .upper-icon {
@@ -177,6 +175,10 @@ footer {
 
   .footer-icon {
     padding: 1.3vh 3vw 1.3vh;
+  }
+
+  .navigation-left {
+    padding-left: 1.7vw;
   }
 
   .navigation-right {
