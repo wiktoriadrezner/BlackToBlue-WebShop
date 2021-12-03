@@ -50,12 +50,12 @@ input{
   border-radius: 20px;
   height: 2.5vw;
   border-color: black;
-  padding-left: 1vw;
   align-self: center;
 }
 
 ::placeholder{
   font-size: 1.2vw;
+  padding-left: 1vw;
 }
 
 
