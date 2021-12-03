@@ -51,11 +51,11 @@ input{
   height: 2.5vw;
   border-color: black;
   align-self: center;
+  padding-left: 5%;
 }
 
 ::placeholder{
   font-size: 1.2vw;
-  padding-left: 1vw;
 }
 
 
