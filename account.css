@@ -44,10 +44,6 @@ main {
   align-items: center;
 }
 
-.blank {
-  width: 25vw;
-}
-
 input{
   width: 25vw;
   border: 1px solid;
@@ -55,12 +51,21 @@ input{
   height: 2.5vw;
   border-color: black;
   padding-left: 1vw;
+  align-self: center;
+}
+
+::placeholder{
+  font-size: 1.2vw;
 }
 
 
 /* TABLET OPTIMISED */
 @media (max-width: 768px) and (orientation: landscape) {
   .section {
+    font-size: 1.5vw;
+  }
+
+  ::placeholder{
     font-size: 1.5vw;
   }
 }
@@ -72,8 +77,13 @@ input{
     margin: 0 10%;
   }
 
-  .blank {
-    width: 45vw;
+  input{
+    width: 35vw;
+    height: 4vw;
+  }
+
+  ::placeholder{
+    font-size: 2vw;
   }
 
   .section {
