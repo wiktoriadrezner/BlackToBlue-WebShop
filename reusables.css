@@ -66,9 +66,11 @@ body {
 }
 
 .navigation-right {
+  display: -webkit-flex;
+  -webkit-justify-content: end;
+  display: flex;
   justify-content: end;
   width: 25%;
-  display: flex;
   align-items: center;
   column-gap: 0.7vw;
   padding-right: 0.7vw;
