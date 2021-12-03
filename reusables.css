@@ -23,6 +23,21 @@ body {
   font-style: normal;
 }
 
+/* HEADERS AND SUBHEADERS */
+.page-header {
+  font-size: 2vw;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 3vh;
+}
+
+.page-subheader {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5vw;
+  margin: 3vh 0 1.5vh 0;
+}
+
 /* NAVIGATION BAR */
 .navigation {
   background: var(--gradient);
@@ -120,8 +135,8 @@ footer {
   font-weight: bold;
   width: 20vw;
   height: 6vh;
-  margin-top: 2vh;
-  margin-bottom: 2vh;
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
   font-size: 2.2vh;
 }
 
@@ -149,6 +164,15 @@ footer {
 }
 
 @media (orientation: portrait) {
+  .page-header {
+    font-size: 6vw;
+  }
+
+  .page-subheader {
+    font-size: 2.2vh;
+    margin-bottom: 1.5vw;
+  }
+
   .footer-connect {
     font-size: 1em;
   }
