@@ -17,27 +17,12 @@ main {
   margin-bottom: 0.7vw;
 }
 
-.page-header {
-  font-size: 5vh;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 3vh;
-}
-
 /* SIGN IN AND CREATE ACCOUNT */
 .sign-in-or-create-account {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: auto;
   margin: 0 5%;
-}
-
-.title {
-  text-align: center;
-  font-weight: bold;
-  font-size: 3.7vh;
-  margin-bottom: 1.5vh;
-  margin-top: 3.5vh;
 }
 
 .details-and-space {

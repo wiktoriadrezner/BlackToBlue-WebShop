@@ -36,14 +36,6 @@ main {
   justify-self: start;
 }
 
-.title {
-  margin-top: 3vw;
-  font-size: 3.7vh;
-  display: flex;
-  justify-content: center;
-  font-weight: bold;
-}
-
 .info {
   justify-self: start;
   align-self: center;
@@ -52,16 +44,7 @@ main {
   margin-bottom: 0.1vw;
 }
 
-.checkout-title {
-  display: flex;
-  justify-content: center;
-  margin-top: 3vh;
-  font-weight: bold;
-  font-size: 5vh;
-  width: 100%;
-}
-
-.card-details-title {
+.card-details {
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 1;
@@ -230,34 +213,10 @@ main {
     font-size: 2vw;
     margin-top: 1.5vw;
   }
-
-  .title {
-    margin-top: 3vw;
-    font-size: 2vh;
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
-  }
-
-  .checkout-title {
-    font-size: 3vh;
-  }
 }
 
 /* MOBILE OPTIMISED */
 @media (orientation: portrait) {
-  .checkout-title {
-    font-size: 3vh;
-  }
-
-  .title {
-    margin-top: 3vw;
-    font-size: 2vh;
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
-  }
-
   .field {
     width: 60vw;
     justify-self: center;
@@ -280,7 +239,7 @@ main {
     grid-template-rows: auto;
   }
 
-  .card-details-title {
+  .card-details {
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 1;
