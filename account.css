@@ -80,6 +80,7 @@ input{
   input{
     width: 40vw;
     height: 5vw;
+    padding-left: 5%;
   }
 
   ::placeholder{
