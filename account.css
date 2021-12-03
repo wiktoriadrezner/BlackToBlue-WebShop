@@ -44,13 +44,28 @@ main {
   align-items: center;
 }
 
-.blank {
+input{
   width: 25vw;
+  border: 1px solid;
+  border-radius: 20px;
+  height: 2.5vw;
+  border-color: black;
+  align-self: center;
 }
+
+::placeholder{
+  font-size: 1.2vw;
+  padding-left: 1vw;
+}
+
 
 /* TABLET OPTIMISED */
 @media (max-width: 768px) and (orientation: landscape) {
   .section {
+    font-size: 1.5vw;
+  }
+
+  ::placeholder{
     font-size: 1.5vw;
   }
 }
@@ -62,8 +77,13 @@ main {
     margin: 0 10%;
   }
 
-  .blank {
-    width: 45vw;
+  input{
+    width: 40vw;
+    height: 5vw;
+  }
+
+  ::placeholder{
+    font-size: 2.5vw;
   }
 
   .section {
