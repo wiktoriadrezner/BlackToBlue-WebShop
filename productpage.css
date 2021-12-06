@@ -18,53 +18,54 @@ main {
 }
 
 .watch {
-  width: 40vw;
+  width: 35vw;
 }
 
 .productimage {
-  grid-area: 2 / 2 / 8 / 5;
+  grid-area: 2 / 2 / 6 / 5;
   align-self: center;
   justify-self: center;
 }
 
 .productname {
-  grid-area: 3 / 5 / 4 / 9;
+  grid-area: 1 / 5 / 2 / 9;
   font-size: 2vw;
   font-weight: bold;
+  margin-top: 3vh;
 }
 
 .productprice {
-  grid-area: 4 / 5 / 5 / 9;
+  grid-area: 2 / 5 / 3 / 9;
   font-size: 2vw;
 }
 
 .button-space {
-  grid-area: 5 / 5 / 6 / 9;
+  grid-area: 3 / 5 / 4 / 9;
   justify-content: left;
 }
 
 .detailstitle {
-  grid-area: 6 / 5 / 7 / 9;
+  grid-area: 4 / 5 / 5 / 9;
   font-size: 1.5vw;
   font-weight: bold;
 }
 
 .productdetails {
-  grid-area: 7 / 5 / 8 / 9;
+  grid-area: 5 / 5 / 6 / 9;
   font-size: 1vw;
   line-height: 1.5vw;
   margin-top: 0.5vw;
 }
 
 .similarproducts {
-  grid-area: 8 / 3 / 9 / 7;
+  grid-area: 6 / 3 / 7 / 7;
   font-size: 1.5vw;
   margin-top: 4vw;
   justify-self: center;
 }
 
 .similarimages {
-  grid-area: 9 / 1 / 12 / 9;
+  grid-area: 7 / 1 / 10 / 9;
   display: flex;
   justify-content: center;
   column-gap: 2vw;
