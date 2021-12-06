@@ -63,7 +63,7 @@ body {
 }
 
 .navigation-left {
-  width: 25%;
+  width: 20%;
   display: flex;
   align-items: center;
   float: left;
@@ -71,7 +71,7 @@ body {
 }
 
 .navigation-center {
-  width: 50%;
+  width: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -82,7 +82,7 @@ body {
 .navigation-right {
   display: flex;
   justify-content: flex-end;
-  width: 25%;
+  width: 20%;
   align-items: center;
   column-gap: 1vw;
   padding-right: 1vw;
@@ -164,12 +164,20 @@ footer {
     font-size: 0.9em;
   }
 
+  .footer-icon {
+    padding: 0.8vh 1.3vw 0.8vh;
+  }
+
   .upper-icon {
     height: 6vh;
   }
 
-  .footer-icon {
-    padding: 0.8vh 1.3vw 0.8vh;
+  .word-one {
+    margin-right: 5%;
+  }
+
+  .word-two {
+    margin-right: 2.4%;
   }
 }
 
@@ -181,14 +189,6 @@ footer {
   .page-subheader {
     font-size: 2.2vh;
     margin-bottom: 1.5vw;
-  }
-
-  .footer-connect {
-    font-size: 1em;
-  }
-
-  .footer-icon {
-    padding: 1.3vh 3vw 1.3vh;
   }
 
   .navigation {
@@ -210,6 +210,22 @@ footer {
 
   .upper-icon {
     height: 4vh;
+  }
+
+  .word-one {
+    margin-right: 5%;
+  }
+
+  .word-two {
+    margin-right: 2.4%;
+  }
+
+  .footer-connect {
+    font-size: 1em;
+  }
+
+  .footer-icon {
+    padding: 1.3vh 3vw 1.3vh;
   }
 
   .button {
