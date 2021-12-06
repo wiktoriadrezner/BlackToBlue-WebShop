@@ -266,6 +266,10 @@ main {
     top: 100vh;
   }
 
+  .scroll-up {
+    top: 90vh;
+  }
+
   .scroll-up-button {
     width: 15vw;
   }
