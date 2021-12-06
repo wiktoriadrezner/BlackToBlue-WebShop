@@ -63,7 +63,7 @@ body {
 }
 
 .navigation-left {
-  width: 25%;
+  width: 20%;
   display: flex;
   align-items: center;
   float: left;
@@ -71,7 +71,7 @@ body {
 }
 
 .navigation-center {
-  width: 50%;
+  width: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -82,7 +82,7 @@ body {
 .navigation-right {
   display: flex;
   justify-content: flex-end;
-  width: 25%;
+  width: 20%;
   align-items: center;
   column-gap: 1vw;
   padding-right: 1vw;
