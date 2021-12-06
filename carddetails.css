@@ -69,6 +69,9 @@ input{
 
 .ccv-code {
   grid-area: 7 / 1 / 8 / 2;
+  width: 5vw;
+  text-align: center;
+  padding: 0;
 }
 
 .ccv {
@@ -142,23 +145,27 @@ input{
   padding: 0;
 }
 
+
 /* TABLET OPTIMISED */
 @media (max-width: 768px) and (orientation: landscape) {
-  .grid {
-    display: grid;
-    width: 78vw;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-  }
-
-  .field {
-    width: 38vw;
-    justify-self: center;
-  }
 
   .info {
     font-size: 2vw;
     margin-top: 1.5vw;
+  }
+
+  input{
+    font-size: 1.5vw;
+  }
+
+  .country-address{
+    width: 70%;
+  }
+  
+  .post-code{
+    width: 30%;
+    text-align: center;
+    padding: 0;
   }
 }
 
@@ -171,7 +178,7 @@ input{
   }
 
   input{
-    width: 56vw;
+    width: 57vw;
     border: 1px solid;
     border-radius: 20px;
     height: 5vw;
@@ -182,11 +189,11 @@ input{
   }
 
   .country-address{
-    width:40vw;
+    width:70%;
   }
   
   .post-code{
-    width:16vw;
+    width:30%;
     text-align: center;
     padding: 0;
   }
@@ -246,5 +253,11 @@ input{
 
   .rowcontainer{
     grid-area: 22 / 1 / 23 / 2
+  }
+
+  .ccv-code{
+    width: 10vw;
+    text-align: center;
+    padding: 0;
   }
 }
