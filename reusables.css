@@ -39,6 +39,20 @@ body {
 }
 
 /* NAVIGATION BAR */
+.word-one,
+.word-two,
+.word-three {
+  display: inline-block;
+}
+
+.word-one {
+  margin-right: 1.8%;
+}
+
+.word-two {
+  margin-right: 1.2%;
+}
+
 .navigation {
   background: var(--gradient);
   display: flex;
@@ -175,6 +189,10 @@ footer {
 
   .footer-icon {
     padding: 1.3vh 3vw 1.3vh;
+  }
+
+  .navigation {
+    height: 7vh;
   }
 
   .navigation-left {
