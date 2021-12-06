@@ -200,7 +200,7 @@ main {
 }
 
 /* TABLET AND MOBILE OPTIMISED */
-@media (max-width: 768px) {
+@media (max-width: 768px) and (orientation: landscape) {
   .landing-page {
     height: 35vh;
   }
@@ -252,7 +252,7 @@ main {
   }
 }
 
-@media (max-width: 425px) {
+@media (orientation: portrait) {
   .landing-page {
     height: 25vh;
   }
