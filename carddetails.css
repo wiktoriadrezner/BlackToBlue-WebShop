@@ -156,11 +156,6 @@ input{
     justify-self: center;
   }
 
-  .small-field {
-    width: 7vw;
-    justify-self: start;
-  }
-
   .info {
     font-size: 2vw;
     margin-top: 1.5vw;
@@ -169,19 +164,31 @@ input{
 
 /* MOBILE OPTIMISED */
 @media (orientation: portrait) {
-  .field {
-    width: 60vw;
-    justify-self: center;
-  }
-
-  .small-field {
-    width: 12vw;
-    justify-self: start;
-  }
 
   .info {
     font-size: 3vw;
     margin-top: 1.5vw;
+  }
+
+  input{
+    width: 56vw;
+    border: 1px solid;
+    border-radius: 20px;
+    height: 5vw;
+    border-color: black;
+    align-self: center;
+    padding-left: 5%;
+    font-size: 3vw;
+  }
+
+  .country-address{
+    width:40vw;
+  }
+  
+  .post-code{
+    width:16vw;
+    text-align: center;
+    padding: 0;
   }
 
   .grid {
@@ -189,6 +196,7 @@ input{
     width: 60vw;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    row-gap: 1vw;
   }
 
   .card-details {
@@ -234,5 +242,9 @@ input{
 
   .countryinfo {
     grid-area: 21 / 1 / 22 / 2;
+  }
+
+  .rowcontainer{
+    grid-area: 22 / 1 / 23 / 2
   }
 }
