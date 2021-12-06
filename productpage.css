@@ -83,6 +83,10 @@ main {
     grid-template-rows: auto;
   }
 
+  main {
+    margin-bottom: 2.8vw;
+  }
+
   .watch {
     width: 100vw;
   }
@@ -105,18 +109,13 @@ main {
     font-size: 6vw;
   }
 
-  .addbutton {
+  .button-space {
     grid-area: 5 / 1 / 6 / 2;
-    display: flex;
     justify-content: center;
-    align-items: center;
-    width: 90vw;
-    height: 12vw;
-    background-color: #08569a;
-    color: white;
-    margin-top: 4vw;
-    font-size: 4vw;
-    justify-self: center;
+  }
+
+  .button {
+    width: 80%;
   }
 
   .detailstitle {
@@ -128,7 +127,7 @@ main {
 
   .productdetails {
     grid-area: 7 / 1 / 8 / 2;
-    margin: 4vw 0 0 4vw;
+    margin: 2vw 0 0 4vw;
     line-height: 6.5vw;
     font-size: 3.8vw;
     justify-self: center;

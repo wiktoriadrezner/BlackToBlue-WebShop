@@ -36,6 +36,7 @@ main {
   display: grid;
   grid-template-columns: 60% 40%;
   grid-template-rows: auto;
+  column-gap: 2%;
 }
 
 .section {
@@ -44,7 +45,7 @@ main {
   align-items: center;
 }
 
-input{
+input {
   width: 25vw;
   border: 1px solid;
   border-radius: 20px;
@@ -54,10 +55,9 @@ input{
   padding-left: 5%;
 }
 
-::placeholder{
+::placeholder {
   font-size: 1.2vw;
 }
-
 
 /* TABLET OPTIMISED */
 @media (max-width: 768px) and (orientation: landscape) {
@@ -65,25 +65,29 @@ input{
     font-size: 1.5vw;
   }
 
-  ::placeholder{
+  ::placeholder {
     font-size: 1.5vw;
   }
 }
 
 /* MOBILE OPTIMISED */
 @media (orientation: portrait) {
+  .details {
+    column-gap: 0;
+  }
+
   .sign-in-or-create-account {
     grid-template-columns: 100%;
     margin: 0 10%;
   }
 
-  input{
+  input {
     width: 40vw;
     height: 5vw;
     padding-left: 5%;
   }
 
-  ::placeholder{
+  ::placeholder {
     font-size: 2.5vw;
   }
 
