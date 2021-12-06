@@ -200,7 +200,7 @@ main {
 }
 
 /* TABLET AND MOBILE OPTIMISED */
-@media (max-width: 768px) and (orientation: landscape) {
+@media (max-width: 768px) {
   .landing-page {
     height: 35vh;
   }
@@ -267,7 +267,7 @@ main {
   }
 
   .scroll-up {
-    top: 90vh;
+    top: 80vh;
   }
 
   .scroll-up-button {
