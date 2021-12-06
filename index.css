@@ -56,6 +56,20 @@ main {
   line-height: 1em;
 }
 
+.header-word-one,
+.header-word-two,
+.header-word-three {
+  display: inline-block;
+}
+
+.header-word-one {
+  margin-right: 1.8%;
+}
+
+.header-word-two {
+  margin-right: 1.2%;
+}
+
 .sub-header {
   text-align: right;
   color: white;
