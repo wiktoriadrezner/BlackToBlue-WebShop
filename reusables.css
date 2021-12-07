@@ -154,6 +154,10 @@ footer {
   font-size: 2.4vh;
 }
 
+.button:hover {
+  transform: scale(1.1);
+}
+
 /* TABLET AND MOBILE OPTIMISED */
 @media (max-width: 768px) and (orientation: landscape) {
   .footer-connect {
