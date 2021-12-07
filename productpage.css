@@ -22,7 +22,7 @@ main {
 }
 
 .productimage {
-  grid-area: 2 / 2 / 6 / 5;
+  grid-area: 1 / 2 / 8 / 5;
   align-self: center;
   justify-self: center;
 }
@@ -31,7 +31,7 @@ main {
   grid-area: 1 / 5 / 2 / 9;
   font-size: 2vw;
   font-weight: bold;
-  margin-top: 3vh;
+  margin-top: 5vh;
 }
 
 .productprice {
@@ -58,14 +58,14 @@ main {
 }
 
 .similarproducts {
-  grid-area: 6 / 3 / 7 / 7;
+  grid-area: 8 / 3 / 9 / 7;
   font-size: 1.5vw;
-  margin-top: 4vw;
   justify-self: center;
+  margin-top: 2vw;
 }
 
 .similarimages {
-  grid-area: 7 / 1 / 10 / 9;
+  grid-area: 9 / 1 / 14 / 9;
   display: flex;
   justify-content: center;
   column-gap: 2vw;
