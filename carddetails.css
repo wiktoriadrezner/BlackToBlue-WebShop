@@ -145,6 +145,14 @@ input{
   padding: 0;
 }
 
+.coupon{
+  grid-area: 12 / 2 / 13 / 3;
+}
+
+.coupon-field{
+  grid-area: 13 / 2 / 14 / 3;
+}
+
 
 /* TABLET OPTIMISED */
 @media (max-width: 768px) and (orientation: landscape) {
@@ -259,5 +267,13 @@ input{
     width: 10vw;
     text-align: center;
     padding: 0;
+  }
+
+  .coupon{
+    grid-area: 23 / 1 / 24 / 2;
+  }
+  
+  .coupon-field{
+    grid-area: 24 / 1 / 25 / 2;
   }
 }

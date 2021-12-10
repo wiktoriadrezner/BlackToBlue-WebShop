@@ -5,29 +5,35 @@
     padding: 0;
   }
 
+  main {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
 .container{
-      display: flex;
-      justify-content: center;
+    display: flex;
+    justify-content: center;
   }
 
 .grid{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: auto;
-      width: 50vw;  
-  }
-
-.page-header{
-    grid-area: 1 / 1 / 2 / 4;
-  }
-
-.page-subheader{
-    grid-area: 2 / 1 / 3 / 4;
+    display: grid;
+    grid-template-columns: 22% 1fr 10%;
+    grid-template-rows: auto;
+    width: 50vw;
+    grid-row-gap: 2vw; 
   }
 
   .order-details{
-    grid-area: 3 / 1 / 4 / 4;
-    margin-top: 3vh;
+    grid-area: 1 / 1 / 2 / 4;
+    margin-top: 1vw;
+    font-size: 1.2vw;
+  }
+
+  .order-text{
+    font-size: 1.2vw;
+    grid-area: 1 / 1 / 2 / 4;
   }
 
 .order-info{
@@ -35,8 +41,7 @@
     align-items: center;
     justify-self: center;
     column-gap: 2vw;
-    grid-area: 4 / 1 / 5 / 4;
-    margin-top: 3vh;
+    grid-area: 2 / 2 / 3 / 4;
  }
 
 .order-tracking{
@@ -44,16 +49,94 @@
     column-gap: 2vw;
     align-items: center;
     justify-self: center;
-    grid-area: 5 / 1 / 6 / 4;
-    margin-top: 3vh;
+    grid-area: 3 / 1 / 4 / 3;
   }
 
 .mail-icon{
-      width: 10vw;
+    width: 10vw;
+    grid-area: 2 / 1 / 3 / 2;
+    align-self: center;
   }
 .order-icon{
-      width: 5vw;
+    width: 5vw;
+    align-self: center;
+    justify-self: center;
+    grid-area: 3 / 3 / 4 / 4;
   }
+
+.coupon{
+  grid-area: 4/ 1 / 5 / 4;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.coupon-header{
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.coupon-text{
+  text-align: center;
+  margin-top: .5vw;
+  font-size: 1.2vw;
+}
+
+.coupon-code{
+  border: solid black 2px;
+  font-size: 2.5vw;
+  text-align: center;
+  width: 55%;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+@media (orientation: portrait){
+
+  .grid{
+    grid-template-columns: 1fr;
+    width: 70vw;
+    row-gap: 6vw;
+  }
+
+  .order-text{
+    font-size: 3vw;
+  }
+
+  .order-details{
+    grid-area: 1 / 1 / 2 / 2;
+    margin-top: 1vw;
+    font-size: 3vw;
+  }
+
+  .order-info{
+    grid-area: 2 / 1 / 3 / 2;
+    text-align: center;
+ }
+
+ .order-tracking{
+  grid-area: 3 / 1 / 4 / 3;
+  text-align: center;
+}
+
+ .mail-icon, .order-icon{
+  display: none;
+  }
+
+  .coupon-code{
+    width: 70%;
+    font-size: 4vw;
+  }
+
+  .coupon-header{
+    font-size: 2.2vh;
+  }
+
+  .coupon-text{
+    font-size: 3vw;
+  }
+}
 
   
 
