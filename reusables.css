@@ -12,6 +12,16 @@
   --gradient: linear-gradient(270deg, #cce5fb 0%, #08569a 50%, #14181c 100%);
 }
 
+.nav-link{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 5vh;
+  text-decoration: none;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -73,10 +83,7 @@ body {
 .navigation-center {
   width: 60%;
   display: flex;
-  align-items: center;
   justify-content: center;
-  color: white;
-  font-size: 5vh;
 }
 
 .navigation-right {
@@ -199,6 +206,10 @@ footer {
     height: 7vh;
   }
 
+  .nav-link{
+    font-size: 4vh;
+  }
+
   .navigation-left {
     padding-left: 1.7vw;
   }
@@ -206,10 +217,6 @@ footer {
   .navigation-right {
     column-gap: 1.7vw;
     padding-right: 1.7vw;
-  }
-
-  .navigation-center {
-    font-size: 4vh;
   }
 
   .upper-icon {
