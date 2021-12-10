@@ -25,9 +25,8 @@
     grid-row-gap: 2vw; 
   }
 
-  .order-details{
+  .order-header{
     grid-area: 1 / 1 / 2 / 4;
-    margin-top: 1vw;
     font-size: 1.2vw;
   }
 
@@ -100,13 +99,13 @@
     row-gap: 6vw;
   }
 
-  .order-text{
+  .order-header{
+    grid-area: 1 / 1 / 2 / 2;
     font-size: 3vw;
+    margin-top: 3vw;
   }
 
-  .order-details{
-    grid-area: 1 / 1 / 2 / 2;
-    margin-top: 1vw;
+  .order-text{
     font-size: 3vw;
   }
 
