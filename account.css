@@ -1,0 +1,97 @@
+/* APPLYING TO ALL */
+* {
+  scroll-behavior: smooth;
+  font-family: "Open Sans";
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+}
+
+/* LANDING PAGE */
+main {
+  width: 100%;
+  position: relative;
+  margin-bottom: 0.7vw;
+}
+
+/* SIGN IN AND CREATE ACCOUNT */
+.sign-in-or-create-account {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  margin: 0 5%;
+}
+
+.details-and-space {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: auto;
+  grid-row-gap: 0.7vw;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: auto;
+  column-gap: 2%;
+}
+
+.section {
+  font-size: 1.2vw;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  width: 25vw;
+  border: 1px solid;
+  border-radius: 20px;
+  height: 2.5vw;
+  border-color: black;
+  align-self: center;
+  padding-left: 5%;
+}
+
+::placeholder {
+  font-size: 1.2vw;
+}
+
+/* TABLET OPTIMISED */
+@media (max-width: 768px) and (orientation: landscape) {
+  .section {
+    font-size: 1.5vw;
+  }
+
+  ::placeholder {
+    font-size: 1.5vw;
+  }
+}
+
+/* MOBILE OPTIMISED */
+@media (orientation: portrait) {
+  .details {
+    column-gap: 0;
+  }
+
+  .sign-in-or-create-account {
+    grid-template-columns: 100%;
+    margin: 0 10%;
+  }
+
+  input {
+    width: 40vw;
+    height: 5vw;
+    padding-left: 5%;
+  }
+
+  ::placeholder {
+    font-size: 2.5vw;
+  }
+
+  .section {
+    font-size: 2.5vw;
+  }
+}

@@ -1,0 +1,148 @@
+/* APPLYING TO ALL */
+* {
+  scroll-behavior: smooth;
+  font-family: "Open Sans";
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+}
+
+/* LANDING PAGE */
+main {
+  width: 100%;
+  position: relative;
+  margin-bottom: 0.7vw;
+}
+
+/* GRID */
+.shopping-cart {
+  display: grid;
+  grid-template-columns: 40% 20% 20% 20%;
+  grid-template-rows: auto;
+  grid-column-gap: 0px;
+  grid-row-gap: 1vw;
+  margin: 0 6.5vw 0 6.5vw;
+}
+
+.section-title-items,
+.section-title-amount,
+.section-title-price,
+.section-title-total,
+.section-title-remove {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-in-cart-one,
+.product-in-cart-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-image {
+  display: flex;
+  width: 30%;
+  align-self: center;
+}
+
+.image {
+  width: 100%;
+  align-content: center;
+}
+
+.product-name {
+  font-size: 1.4vw;
+  font-weight: bold;
+}
+
+.amount-one,
+.amount-two {
+  display: flex;
+}
+
+.price {
+  text-align: center;
+  align-self: center;
+  font-weight: lighter;
+  font-size: 1.2vw;
+}
+
+.remove {
+  display: flex;
+}
+
+.button-add,
+.button-remove {
+  margin: auto;
+  display: block;
+  align-content: center;
+}
+
+.button-add {
+  width: 40%;
+}
+
+.button-remove {
+  width: 10%;
+}
+
+.total-price {
+  font-size: 1.5vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* MOBILE OPTIMISED */
+@media (orientation: portrait) {
+  .shopping-cart {
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 0;
+    margin: 0 3.5vw 0 3.5vw;
+  }
+
+  .section-title-items {
+    grid-area: 1 / 1 / 2 / 4;
+    font-size: 4vw;
+    margin-bottom: 3vw;
+  }
+
+  .section-title-amount,
+  .section-title-price,
+  .section-title-total,
+  .section-title-remove {
+    grid-row: 2 / 3;
+  }
+
+  .product-in-cart-one {
+    grid-area: 4 / 1 / 5 / 4;
+  }
+
+  .product-in-cart-two {
+    grid-area: 6 / 1 / 7 / 4;
+  }
+
+  .amount-one {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+
+  .price {
+    font-size: 3.5vw;
+  }
+
+  .product-image {
+    width: 45%;
+  }
+
+  .product-name {
+    font-size: 3.2vw;
+  }
+
+  .total-price {
+    font-size: 4vw;
+  }
+}
